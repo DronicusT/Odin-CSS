@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+}
+
+
+.footer,
+.hero {
+    background-color: #1F2937;
+}
+
+.logo  {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-text  {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary-text,
+.link-text  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.ad-space {
+    background-color: #3882F6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E6E7EB;
+}
+
+.testie {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
