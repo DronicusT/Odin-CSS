@@ -49,7 +49,7 @@ body {
 
 .main-pic {
     width: 600px;
-    height: 200px;
+    height: 220px;
 }
 
 ul {
@@ -87,7 +87,8 @@ button  {
     text-align: center;
     text-decoration: none;
     border: 0;
-    box-shadow: none; 
+    box-shadow: none;
+    cursor: pointer;
 }
 
 .info-header {
@@ -107,6 +108,10 @@ button  {
 
 .testimonial {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 260px;
+    gap: 8px;
 }
 
 .testie {
@@ -118,10 +123,17 @@ button  {
 
 .name {
     font-weight: 700;
+    text-align: end;
 }
 
 .ad-space {
     background-color: #3882F6;
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    padding: 60px 40px;
+    border-radius: 6px;
+    align-items: center;
 }
 
 .ad-header {
@@ -138,4 +150,9 @@ button  {
 .footer {
     color: #E5E7EB;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
 }
