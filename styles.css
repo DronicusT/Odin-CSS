@@ -1,5 +1,7 @@
 body {
     height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 
@@ -11,10 +13,21 @@ body {
 .logo  {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .main-text  {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
 }
@@ -25,9 +38,11 @@ body {
     color: #E5E7EB;
 }
 
-button,
-.ad-space {
+
+button  {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
 .info-header {
@@ -44,4 +59,29 @@ button,
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    font-weight: 100;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.ad-space {
+    background-color: #3882F6;
+}
+
+.ad-header {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.ad-text {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.footer {
+    color: #E5E7EB;
+    font-size: 14px;
 }
